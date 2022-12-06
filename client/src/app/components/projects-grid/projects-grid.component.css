@@ -1,4 +1,13 @@
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    overflow: scroll;
+}
+
+div {
+    height: 40vh;
+    width: 100%;
+    background-color: blue;
 }

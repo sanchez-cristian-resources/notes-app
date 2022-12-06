@@ -3,8 +3,9 @@
     display: block;
     height: 100%;
     width: 100%;
-    padding: 50px; 
+    padding: 7vh 7vw; 
     background-color: yellow;
+    overflow: hidden; 
 }
 
 nav {
