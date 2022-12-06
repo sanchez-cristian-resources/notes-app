@@ -1,5 +1,10 @@
-<section>
-    <div
-        *ngFor="let note of notes"
-    >{{ note.title }}</div>
+<section id="grid">
+  <div
+    id="card-container"
+    *ngFor="let note of notes"
+  >
+    <h1>{{ note.title }}</h1>
+    <p>{{ note.author }}</p>
+    <div id="blur"></div>
+  </div>
 </section>

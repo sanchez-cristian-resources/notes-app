@@ -16,8 +16,7 @@ export class ProjectsGridComponent {
 
     ngOnInit(): void {
         this.notesService.getNotes().subscribe({
-            next: (notes) => {
-                console.log('Notes:', notes)
+            next: (notes) => {              
                 this.notes = notes
             }, 
             error: (err) => {

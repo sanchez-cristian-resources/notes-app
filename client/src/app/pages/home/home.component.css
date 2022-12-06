@@ -3,20 +3,56 @@
     display: block;
     height: 100%;
     width: 100%;
-    padding: 7vh 7vw; 
-    background-color: yellow;
+    padding-inline: 10vw;
+    padding-top: 5vh;  
     overflow: hidden; 
 }
 
 nav {
     display: inline-flex;
-    justify-content: flex-end;
-    height: fit-content;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 50px;
     width: 100%;
-    padding-block: 10px;  
-    background-color: red;
+}
+
+nav > div {
+    height: fit-content;
 }
 
 button {
+    outline: none; 
+    border: none; 
+    height: fit-content;
+    width: fit-content;
+    padding-block: 6px;
+    padding-inline: 15px;
     margin-left: 20px; 
+    border-radius: 5px;
+    transition: all .15s ease-in-out;
+}
+
+#order {
+    color: #898989; 
+}
+
+#order:hover {
+    
+}
+
+#create {
+    color: #000; 
+    background-color: #ececec;
+    box-shadow: inset 0px 0px 1px #898989;
+}
+
+#create:hover {
+    cursor: pointer; 
+    background-color: #000;
+    color: #fff; 
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
 }
