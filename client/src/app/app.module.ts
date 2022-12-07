@@ -9,6 +9,9 @@ import { ProjectsGridComponent } from './components/projects-grid/projects-grid.
 import { CardComponent } from './components/card/card.component';
 import { StoreModule } from '@ngrx/store';
 
+// redux
+import { ROOT_REDUCERS } from './state/targetNote.state';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +23,7 @@ import { StoreModule } from '@ngrx/store';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    StoreModule.forRoot({}, {})
+    StoreModule.forRoot(ROOT_REDUCERS)
   ],
   providers: [],
   bootstrap: [AppComponent]
