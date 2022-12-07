@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Note } from 'src/app/models/note.model';
-import { NoteState } from 'src/app/state/reducers/noteTarget.reducer';
 
 @Component({
   selector: 'app-card',
@@ -12,13 +11,11 @@ export class CardComponent {
     @Input()
     note: Note
 
-    constructor(
-        private noteState: Store<NoteState>
-    ) {
+    constructor() {
         this.note = new Note()
     }
 
     cardClick(): void {
-        console.log('hola')
+        console.log('SAVE NOTE: ', this.note)
     }
 }

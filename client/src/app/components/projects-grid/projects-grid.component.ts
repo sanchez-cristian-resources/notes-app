@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs';
 import { Note } from 'src/app/models/note.model';
-import { NotesApiService } from 'src/app/services/notes-api.service';
+import { loadingNotes } from 'src/app/state/actions/apartments.action';
+import { AppState } from 'src/app/state/app.state';
+import { selectLoading, selectNotes } from 'src/app/state/selectors/apartments.selector';
 
 @Component({
   selector: 'app-projects-grid',
@@ -8,20 +12,25 @@ import { NotesApiService } from 'src/app/services/notes-api.service';
   styleUrls: ['./projects-grid.component.css']
 })
 export class ProjectsGridComponent {
-    notes: Note[]
-
-    constructor(private notesService: NotesApiService) {
-        this.notes = []
+    loading$: Observable<boolean>;
+    notes$: Observable<Note[]>;
+  
+    constructor(
+      private store: Store<AppState>,
+    ) {
+      this.loading$ = new Observable<boolean>();
+      this.notes$ = new Observable<Note[]>();
     }
-
+  
     ngOnInit(): void {
-        this.notesService.getNotes().subscribe({
-            next: (notes) => {              
-                this.notes = notes
-            }, 
-            error: (err) => {
-                console.error('Error:', err)
-            }
-        })
+  
+      this.loading$ = this.store.select(selectLoading);
+      this.notes$ = this.store.select(selectNotes);
+  
+      this.store.dispatch(loadingNotes());
+     
+      this.notes$.subscribe((notes) => {
+        console.log(notes);
+      })
     }
 }

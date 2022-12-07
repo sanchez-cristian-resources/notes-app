@@ -1,6 +1,6 @@
 <section id="grid">
     <app-card
-        *ngFor="let note of notes"
+        *ngFor="let note of notes$ | async"
         [note]="note"
     ></app-card>
 </section>
