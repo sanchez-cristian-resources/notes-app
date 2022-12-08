@@ -14,6 +14,8 @@ import { ROOT_REDUCERS } from './state/app.state';
 import { EditNoteComponent } from './pages/edit-note/edit-note.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { EffectsModule } from '@ngrx/effects';
+import { NotesEffect } from './state/effects/apartments.effect';
+import { NoteDetailEffect } from './state/effects/apartment-details.effect';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,7 @@ import { EffectsModule } from '@ngrx/effects';
     AppRoutingModule,
     HttpClientModule,
     StoreModule.forRoot(ROOT_REDUCERS),
-    EffectsModule.forRoot([])
+    EffectsModule.forRoot([NotesEffect, NoteDetailEffect])
   ],
   providers: [],
   bootstrap: [AppComponent]
