@@ -1,0 +1,8 @@
+<div>
+    <input id="title" placeholder="Untitled" [(ngModel)]="title"/>
+    <input id="author" placeholder="Author fullname" [(ngModel)]="author"/>
+</div>
+<section>
+    <textarea placeholder="Write your note here..." [(ngModel)]="content"></textarea>
+    <button (click)="onSubmit()">Create</button>
+</section>

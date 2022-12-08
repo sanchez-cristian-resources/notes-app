@@ -803,8 +803,18 @@
         "wisdom"
       ],
       "length": 236,
-      "createdAt": "2021-01-10",
-      "lastEditAt": "2021-06-17"
+      "createdAt": 1670511624861,
+      "lastEditAt": 1670511624861
+    },
+    {
+      "id": 66,
+      "author": "Cristian Sánchez",
+      "title": "Nueva nota",
+      "content": "There is only one way. ",
+      "tags": [],
+      "length": 23,
+      "createdAt": 1670511624861,
+      "lastEditAt": 1670511624861
     }
   ]
 }

@@ -25,4 +25,8 @@ export class NotesApiService {
   updateNote( id: string, updatedNote: Note ): Observable<Note> {
     return this.http.put<Note>(`${this.API_URL}/${id}`, updatedNote)
   }
+
+  createNote( note: Note ): Observable<Note> {
+    return this.http.post<Note>(this.API_URL, note)
+  }
 }
