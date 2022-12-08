@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { Actions, createEffect, ofType } from "@ngrx/effects";
 import { map, mergeMap } from "rxjs";
 import { NotesApiService } from "src/app/services/notes-api.service";
-import { loadNote, loadingNote } from "../actions/apartment-details.action";
+import { loadNote, loadingNote } from "../actions/note-details.action";
 
 @Injectable()
 export class NoteDetailEffect {

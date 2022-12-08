@@ -1,6 +1,6 @@
 <div
   id="card-container"
-  (click)="cardClick()"
+  [routerLink]="['/notes', note.id]"
 >
   <h1>{{ note.title }}</h1>
   <p>{{ note.author }}</p>

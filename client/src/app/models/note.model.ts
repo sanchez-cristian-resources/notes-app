@@ -10,7 +10,7 @@
     // }
 
 export class Note {
-    _id: string
+    id: string
     author: string
     title: string
     content: string
@@ -20,7 +20,7 @@ export class Note {
     lastEditAt: number
 
     constructor() {
-        this._id = ''
+        this.id = ''
         this.author = ''
         this.title = ''
         this.content = ''

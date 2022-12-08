@@ -8,14 +8,15 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectsGridComponent } from './components/projects-grid/projects-grid.component';
 import { CardComponent } from './components/card/card.component';
 import { StoreModule } from '@ngrx/store';
+import { FormsModule } from '@angular/forms';
 
 // redux
 import { ROOT_REDUCERS } from './state/app.state';
 import { EditNoteComponent } from './pages/edit-note/edit-note.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { EffectsModule } from '@ngrx/effects';
-import { NotesEffect } from './state/effects/apartments.effect';
-import { NoteDetailEffect } from './state/effects/apartment-details.effect';
+import { NotesEffect } from './state/effects/notes.effect';
+import { NoteDetailEffect } from './state/effects/note-details.effect';
 
 @NgModule({
   declarations: [
@@ -24,14 +25,15 @@ import { NoteDetailEffect } from './state/effects/apartment-details.effect';
     ProjectsGridComponent,
     CardComponent,
     EditNoteComponent,
-    NotFoundComponent
+    NotFoundComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     StoreModule.forRoot(ROOT_REDUCERS),
-    EffectsModule.forRoot([NotesEffect, NoteDetailEffect])
+    EffectsModule.forRoot([NotesEffect, NoteDetailEffect]), 
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

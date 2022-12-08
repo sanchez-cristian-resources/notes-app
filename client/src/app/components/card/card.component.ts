@@ -12,10 +12,6 @@ export class CardComponent {
     note: Note
 
     constructor() {
-        this.note = new Note()
-    }
-
-    cardClick(): void {
-        console.log('SAVE NOTE: ', this.note)
+      this.note = new Note()
     }
 }

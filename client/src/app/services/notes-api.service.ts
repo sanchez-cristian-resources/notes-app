@@ -17,8 +17,12 @@ export class NotesApiService {
   }
 
   getNoteById(id: string): Observable<Note> {
-    return this.http.get<Note>(`${this.API_URL}/notes/${id}`).pipe(
+    return this.http.get<Note>(`${this.API_URL}/${id}`).pipe(
         delay(1500)
     )
+  }
+
+  updateNote( id: string, updatedNote: Note ): Observable<Note> {
+    return this.http.put<Note>(`${this.API_URL}/${id}`, updatedNote)
   }
 }
