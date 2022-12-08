@@ -1,6 +1,6 @@
 import { createReducer, on } from "@ngrx/store";
 import { Note } from "src/app/models/note.model";
-import { loadNote } from "../actions/apartment-details.action";
+import { loadNote } from "../actions/note-details.action";
 
 export interface NoteDetailState {
   note: Note,

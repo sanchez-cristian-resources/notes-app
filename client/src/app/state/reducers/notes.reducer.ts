@@ -1,6 +1,6 @@
 import { createReducer, on } from "@ngrx/store";
 import { Note } from "src/app/models/note.model";
-import { loadNotes, loadingNotes } from "../actions/apartments.action";
+import { loadNotes, loadingNotes } from "../actions/notes.action";
 
 export interface NoteState {
   loading: boolean,

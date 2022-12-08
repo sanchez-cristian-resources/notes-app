@@ -1,651 +1,807 @@
 {
   "notes": [
     {
-      "_id": "L0xyAdJ40U",
+      "id": 1,
       "author": "Afrika Bambaataa",
       "title": "The Universal",
       "content": "The Universal Zulu Nation stands to acknowledge wisdom, understanding, freedom, justice, and equality, peace, unity, love, and having fun, work, overcoming the negative through the positive, science, mathematics, faith, facts, and the wonders of God, whether we call him Allah, Jehovah, Yahweh, or Jah.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 302,
       "createdAt": "2021-03-08",
       "lastEditAt": "2021-03-08"
     },
     {
-      "_id": "xAhAKo-kqcD",
+      "id": 2,
       "author": "Ben Fountain",
       "title": "Democracy's premise",
       "content": "Democracy's premise rests on the notion that the collective wisdom of the majority will prove right more often than it's wrong; that given sufficient opportunity in the pursuit of happiness, your population will develop its talents, its intellect, its better judgment; that over time its capacity for discernment and self-correction will be enlarged.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 350,
       "createdAt": "2019-09-19",
       "lastEditAt": "2019-09-19"
     },
     {
-      "_id": "gWSsNulTG-B",
+      "id": 3,
       "author": "Maria Montessori",
       "title": "Everyone in",
       "content": "Everyone in the world ought to do the things for which he is specially adapted. It is the part of wisdom to recognize what each one of us is best fitted for, and it is the part of education to perfect and utilize such predispositions. Because education can direct and aid nature but can never transform her.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 307,
       "createdAt": "2019-09-13",
       "lastEditAt": "2021-06-17"
     },
     {
-      "_id": "r2gCpEgG_LP",
+      "id": 4,
       "author": "Michelle Obama",
       "title": "And I",
       "content": "And I love that even in the toughest moments, when we're all sweating it - when we're worried that the bill won't pass, and it seems like all is lost - Barack never lets himself get distracted by the chatter and the noise. Just like his grandmother, he just keeps getting up and moving forward... with patience and wisdom, and courage and grace.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 345,
       "createdAt": "2019-08-03",
       "lastEditAt": "2019-08-03"
     },
     {
-      "_id": "yBn9DgK3vf",
+      "id": 5,
       "author": "Confucius",
       "title": "A youth,",
       "content": "A youth, when at home, should be filial and, abroad, respectful to his elders. He should be earnest and truthful. He should overflow in love to all and cultivate the friendship of the good. When he has time and opportunity, after the performance of these things, he should employ them in polite studies.",
-      "tags": [ "friendship" ],
+      "tags": [
+        "friendship"
+      ],
       "length": 303,
       "createdAt": "2019-02-17",
       "lastEditAt": "2019-02-17"
     },
     {
-      "_id": "JIk3cbQ8s",
+      "id": 6,
       "author": "Michael Jordan",
       "title": "I've missed",
       "content": "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
-      "tags": [ "sports", "competition", "famous-quotes" ],
+      "tags": [
+        "sports",
+        "competition",
+        "famous-quotes"
+      ],
       "length": 224,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "wNd1PnDiIN",
+      "id": 7,
       "author": "Bob Feller",
       "title": "Every day",
       "content": "Every day is a new opportunity. You can build on yesterday's success or put its failures behind and start over again. That's the way life is, with a new game every day, and that's the way baseball is.",
-      "tags": [ "sports", "competition" ],
+      "tags": [
+        "sports",
+        "competition"
+      ],
       "length": 200,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "vZ-5DQPCJag",
+      "id": 8,
       "author": "George Orwell",
       "title": "Serious sport",
       "content": "Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence. In other words, it is war minus the shooting.",
-      "tags": [ "sports" ],
+      "tags": [
+        "sports"
+      ],
       "length": 214,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "IiQQfTSSTyc",
+      "id": 9,
       "author": "Pauline Kael",
       "title": "Where there",
       "content": "Where there is a will, there is a way. If there is a chance in a million that you can do something, anything, to keep what you want from ending, do it. Pry the door open or, if need be, wedge your foot in that door and keep it open.",
-      "tags": [ "motivational" ],
+      "tags": [
+        "motivational"
+      ],
       "length": 232,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-06"
     },
     {
-      "_id": "nZtnCW3_6S",
+      "id": 10,
       "author": "Abraham Lincoln",
       "title": "I am",
       "content": "I am not bound to win, but I am bound to be true. I am not bound to succeed, but I am bound to live by the light that I have. I must stand with anybody that stands right, and stand with him while he is right, and part with him when he goes wrong.",
-      "tags": [ "inspirational", "history", "truth" ],
+      "tags": [
+        "inspirational",
+        "history",
+        "truth"
+      ],
       "length": 246,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "a86E0FlaTY",
+      "id": 11,
       "author": "Alan Watts",
       "title": "How is",
       "content": "How is it possible that a being with such sensitive jewels as the eyes, such enchanted musical instruments as the ears, and such fabulous arabesque of nerves as the brain can experience itself anything less than a god.",
-      "tags": [ "philosophy" ],
+      "tags": [
+        "philosophy"
+      ],
       "length": 218,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "qXO3CA1R5kmS",
+      "id": 12,
       "author": "Swami Vivekananda",
       "title": "Take up",
-      "content": "Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.",
-      "tags": [ "success" ],
+      "content": "create new note",
+      "tags": [
+        "success"
+      ],
       "length": 239,
       "createdAt": "2021-05-12",
       "lastEditAt": "2022-07-04"
     },
     {
-      "_id": "zbvj3SIQud",
+      "id": 13,
       "author": "Judy Collins",
       "title": "I think",
       "content": "I think people who are creative are the luckiest people on earth. I know that there are no shortcuts, but you must keep your faith in something Greater than you and keep doing what you love. Do what you love, and you will find the way to get it out to the world.",
-      "tags": [ "inspirational" ],
+      "tags": [
+        "inspirational"
+      ],
       "length": 262,
       "createdAt": "2021-05-05",
       "lastEditAt": "2021-06-17"
     },
     {
-      "_id": "L63tZjtmyQX6",
+      "id": 14,
       "author": "Marilyn Monroe",
       "title": "I'm selfish,",
       "content": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
-      "tags": [ "famous-quotes" ],
+      "tags": [
+        "famous-quotes"
+      ],
       "length": 202,
       "createdAt": "2021-04-23",
       "lastEditAt": "2022-01-07"
     },
     {
-      "_id": "W_NZxqBSuJ",
+      "id": 15,
       "author": "Henri Nouwen",
       "title": "The friend",
       "content": "The friend who can be silent with us in a moment of despair or confusion, who can stay with us in an hour of grief and bereavement, who can tolerate not knowing... not healing, not curing... that is a friend who cares.",
-      "tags": [ "friendship" ],
+      "tags": [
+        "friendship"
+      ],
       "length": 218,
       "createdAt": "2021-04-08",
       "lastEditAt": "2021-04-08"
     },
     {
-      "_id": "01pIIRUUwN",
+      "id": 16,
       "author": "Calvin Coolidge",
       "title": "Knowledge comes,",
       "content": "Knowledge comes, but wisdom lingers. It may not be difficult to store up in the mind a vast quantity of facts within a comparatively short time, but the ability to form judgments requires the severe discipline of hard work and the tempering heat of experience and maturity.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 273,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "ykXP-CFk_G",
+      "id": 17,
       "author": "Michael Jordan",
       "title": "If you're",
       "content": "If you're trying to achieve, there will be roadblocks. I've had them; everybody has had them. But obstacles don't have to stop you. If you run into a wall, don't turn around and give up. Figure out how to climb it, go through it, or work around it.",
-      "tags": [ "wisdom", "inspirational" ],
+      "tags": [
+        "wisdom",
+        "inspirational"
+      ],
       "length": 248,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "PdcCF7bmZfA",
+      "id": 18,
       "author": "Plato",
       "title": "The man",
       "content": "The man who makes everything that leads to happiness depends upon himself, and not upon other men, has adopted the very best plan for living happily. This is the man of moderation, the man of manly character and of wisdom.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 222,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "J2QOuZPIiG",
+      "id": 19,
       "author": "W. Clement Stone",
       "title": "You are",
       "content": "You are a product of your environment. So choose the environment that will best develop you toward your objective. Analyze your life in terms of its environment. Are the things around you helping you toward success - or are they holding you back?",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 246,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "L0xyAdJ40U",
+      "id": 20,
       "author": "Afrika Bambaataa",
       "title": "The Universal",
       "content": "The Universal Zulu Nation stands to acknowledge wisdom, understanding, freedom, justice, and equality, peace, unity, love, and having fun, work, overcoming the negative through the positive, science, mathematics, faith, facts, and the wonders of God, whether we call him Allah, Jehovah, Yahweh, or Jah.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 302,
       "createdAt": "2021-03-08",
       "lastEditAt": "2021-03-08"
     },
     {
-      "_id": "FMZiiLHfCOc",
+      "id": 21,
       "author": "Parker Palmer",
       "title": "America's freedom",
       "content": "America's freedom of religion, and freedom from religion, offers every wisdom tradition an opportunity to address our soul-deep needs: Christianity, Judaism, Islam, Buddhism, Hinduism, secular humanism, agnosticism and atheism among others.",
-      "tags": [ "wisdom", "freedom" ],
+      "tags": [
+        "wisdom",
+        "freedom"
+      ],
       "length": 240,
       "createdAt": "2021-03-08",
       "lastEditAt": "2022-07-04"
     },
     {
-      "_id": "idKyHYiBkP",
+      "id": 22,
       "author": "Maya Angelou",
       "title": "I love",
       "content": "I love wisdom. And you can never be great at anything unless you love it. Not be in love with it, but love the thing, admire the thing. And it seems that if you love the thing, and you don't just want to possess it, it will find you.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 233,
       "createdAt": "2021-03-08",
       "lastEditAt": "2021-03-08"
     },
     {
-      "_id": "8bIHIEuQP5",
+      "id": 23,
       "author": "Michelle Obama",
       "title": "The fact",
       "content": "The fact is, with every friendship you make, and every bond of trust you establish, you are shaping the image of America projected to the rest of the world. That is so important. So when you study abroad, you're actually helping to make America stronger.",
-      "tags": [ "friendship" ],
+      "tags": [
+        "friendship"
+      ],
       "length": 254,
       "createdAt": "2021-01-19",
       "lastEditAt": "2021-01-19"
     },
     {
-      "_id": "QTf15XLSdB",
+      "id": 24,
       "author": "Victoria Osteen",
       "title": "I think",
       "content": "I think that we have a great opportunity to impart our wisdom and our knowledge and our experience to this younger generation. It may be different times, but experience transcends time, and wisdom transcends time.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 213,
       "createdAt": "2021-01-11",
       "lastEditAt": "2021-01-11"
     },
     {
-      "_id": "lxVMQLtBP7",
+      "id": 25,
       "author": "Douglas Adams",
       "title": "First we",
       "content": "First we thought the PC was a calculator. Then we found out how to turn numbers into letters with ASCII — and we thought it was a typewriter. Then we discovered graphics, and we thought it was a television. With the World Wide Web, we've realized it's a brochure.",
-      "tags": [ "technology" ],
+      "tags": [
+        "technology"
+      ],
       "length": 263,
       "createdAt": "2021-01-11",
       "lastEditAt": "2022-01-07"
     },
     {
-      "_id": "l0LfTgApB3",
+      "id": 26,
       "author": "Babe Ruth",
       "title": "The way",
       "content": "The way a team plays as a whole determines its success. You may have the greatest bunch of individual stars in the world, but if they don't play together, the club won't be worth a dime.",
-      "tags": [ "sports", "competition" ],
+      "tags": [
+        "sports",
+        "competition"
+      ],
       "length": 186,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "wNd1PnDiIN",
+      "id": 27,
       "author": "Bob Feller",
       "title": "Every day",
       "content": "Every day is a new opportunity. You can build on yesterday's success or put its failures behind and start over again. That's the way life is, with a new game every day, and that's the way baseball is.",
-      "tags": [ "sports", "competition" ],
+      "tags": [
+        "sports",
+        "competition"
+      ],
       "length": 200,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "scBvf0Y5W3B",
+      "id": 28,
       "author": "Ian Botham",
       "title": "To me,",
       "content": "To me, it doesn't matter how good you are. Sport is all about playing and competing. Whatever you do in cricket and in sport, enjoy it, be positive and try to win.",
-      "tags": [ "sports", "competition" ],
+      "tags": [
+        "sports",
+        "competition"
+      ],
       "length": 163,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "2wnTElJ9STU",
+      "id": 29,
       "author": "Hank Aaron",
       "title": "My motto",
       "content": "My motto was always to keep swinging. Whether I was in a slump or feeling badly or having trouble off the field, the only thing to do was keep swinging.",
-      "tags": [ "sports", "competition" ],
+      "tags": [
+        "sports",
+        "competition"
+      ],
       "length": 152,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "Nr6_kltWU8x",
+      "id": 30,
       "author": "Hugo Black",
       "title": "When I",
       "content": "When I was 40, my doctor advised me that a man in his 40s shouldn't play tennis. I heeded his advice carefully and could hardly wait until I reached 50 to start again.",
-      "tags": [ "sports", "humorous" ],
+      "tags": [
+        "sports",
+        "humorous"
+      ],
       "length": 167,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "boO8cxCyUZ",
+      "id": 31,
       "author": "Sam Walton",
       "title": "There is",
       "content": "There is only one boss. The customer. And he can fire everybody in the company from the chairman on down, simply by spending his money somewhere else.",
-      "tags": [ "business" ],
+      "tags": [
+        "business"
+      ],
       "length": 150,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-06"
     },
     {
-      "_id": "Aooogq1lu-",
+      "id": 32,
       "author": "Theodore Isaac Rubin",
       "title": "Happiness does",
       "content": "Happiness does not come from doing easy work but from the afterglow of satisfaction that comes after the achievement of a difficult task that demanded our best.",
-      "tags": [ "business" ],
+      "tags": [
+        "business"
+      ],
       "length": 160,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-06"
     },
     {
-      "_id": "u88FH0TrZCH",
+      "id": 33,
       "author": "Thomas Jefferson",
       "title": "I hope",
       "content": "I hope we shall crush in its birth the aristocracy of our monied corporations which dare already to challenge our government to a trial by strength, and bid defiance to the laws of our country.",
-      "tags": [ "business" ],
+      "tags": [
+        "business"
+      ],
       "length": 193,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-06"
     },
     {
-      "_id": "LGLKYTCTq9",
+      "id": 34,
       "author": "Abraham Lincoln",
       "title": "I am",
       "content": "I am a firm believer in the people. If given the truth, they can be depended upon to meet any national crisis. The great point is to bring them the real facts.",
-      "tags": [ "politics", "history" ],
+      "tags": [
+        "politics",
+        "history"
+      ],
       "length": 159,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "S6XZ0bE2Jy",
+      "id": 35,
       "author": "Abraham Lincoln",
       "title": "We the",
       "content": "We the people are the rightful masters of both Congress and the courts, not to overthrow the Constitution but to overthrow the men who pervert the Constitution.",
-      "tags": [ "politics" ],
+      "tags": [
+        "politics"
+      ],
       "length": 160,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "nldCX72G-j",
+      "id": 36,
       "author": "Alan Watts",
       "title": "To have",
       "content": "To have faith is to trust yourself to the water. When you swim you don't grab hold of the water, because if you do you will sink and drown. Instead you relax, and float.",
-      "tags": [ "faith" ],
+      "tags": [
+        "faith"
+      ],
       "length": 169,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "Umn2bc4TpG",
+      "id": 37,
       "author": "Alan Watts",
       "title": "But I'll",
       "content": "But I'll tell you what hermits realize. If you go off into a far, far forest and get very quiet, you'll come to understand that you're connected with everything.",
-      "tags": [ "nature" ],
+      "tags": [
+        "nature"
+      ],
       "length": 161,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "l1KvjJfsFv",
+      "id": 38,
       "author": "Alan Watts",
       "title": "No work",
       "content": "No work or love will flourish out of guilt, fear, or hollowness of heart, just as no valid plans for the future can be made by those who have no capacity for living now.",
-      "tags": [ "future", "life" ],
+      "tags": [
+        "future",
+        "life"
+      ],
       "length": 169,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "n4cqmf135I",
+      "id": 39,
       "author": "Alan Watts",
       "title": "Things are",
       "content": "Things are as they are. Looking out into it the universe at night, we make no comparisons between right and wrong stars, nor between well and badly arranged constellations.",
-      "tags": [ "philosophy", "self" ],
+      "tags": [
+        "philosophy",
+        "self"
+      ],
       "length": 172,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "ErFK0EPOMHJ",
+      "id": 40,
       "author": "Alan Watts",
       "title": "So then,",
       "content": "So then, the relationship of self to other is the complete realization that loving yourself is impossible without loving everything defined as other than yourself.",
-      "tags": [ "self", "love" ],
+      "tags": [
+        "self",
+        "love"
+      ],
       "length": 163,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "lJ60rOYWci",
+      "id": 41,
       "author": "Neil Gaiman",
       "title": "The one",
       "content": "The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.",
-      "tags": [ "famous-quotes", "inspirational" ],
+      "tags": [
+        "famous-quotes",
+        "inspirational"
+      ],
       "length": 177,
       "createdAt": "2021-06-18",
       "lastEditAt": "2021-06-18"
     },
     {
-      "_id": "3Jk60HlbZFu9",
+      "id": 42,
       "author": "Harriet Tubman",
       "title": "Every great",
       "content": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.",
-      "tags": [ "famous-quotes", "success", "inspirational" ],
+      "tags": [
+        "famous-quotes",
+        "success",
+        "inspirational"
+      ],
       "length": 165,
       "createdAt": "2021-05-05",
       "lastEditAt": "2022-07-04"
     },
     {
-      "_id": "PHkGb4ppfvTb",
+      "id": 43,
       "author": "Leonardo da Vinci",
       "title": "It had",
       "content": "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things.",
-      "tags": [ "famous-quotes" ],
+      "tags": [
+        "famous-quotes"
+      ],
       "length": 153,
       "createdAt": "2021-05-05",
       "lastEditAt": "2021-05-05"
     },
     {
-      "_id": "Avwppw9hga",
+      "id": 44,
       "author": "Elizabeth Kapuuwailani Lindsey",
       "title": "We live",
       "content": "We live in a society bloated with data yet starved for wisdom. We're connected 24/7, yet anxiety, fear, depression and loneliness are at an all-time high. We must course-correct.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 178,
       "createdAt": "2021-04-23",
       "lastEditAt": "2021-06-17"
     },
     {
-      "_id": "4nWz20xbUO1H",
+      "id": 45,
       "author": "Rachel Carson",
       "title": "If facts",
       "content": "If facts are the seeds that later produce knowledge and wisdom, then the emotions and the impressions of the senses are the fertile soil in which the seeds must grow.",
-      "tags": [ "famous-quotes" ],
+      "tags": [
+        "famous-quotes"
+      ],
       "length": 166,
       "createdAt": "2021-04-15",
       "lastEditAt": "2021-04-15"
     },
     {
-      "_id": "JIk3cbQ8s",
+      "id": 46,
       "author": "Michael Jordan",
       "title": "I''ve missed",
       "content": "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
-      "tags": [ "sports", "competition", "famous-quotes" ],
+      "tags": [
+        "sports",
+        "competition",
+        "famous-quotes"
+      ],
       "length": 224,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "wNd1PnDiIN",
+      "id": 47,
       "author": "Bob Feller",
       "title": "Every day",
       "content": "Every day is a new opportunity. You can build on yesterday's success or put its failures behind and start over again. That's the way life is, with a new game every day, and that's the way baseball is.",
-      "tags": [ "sports", "competition" ],
+      "tags": [
+        "sports",
+        "competition"
+      ],
       "length": 200,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "vZ-5DQPCJag",
+      "id": 48,
       "author": "George Orwell",
       "title": "Serious sport",
       "content": "Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence. In other words, it is war minus the shooting.",
-      "tags": [ "sports" ],
+      "tags": [
+        "sports"
+      ],
       "length": 214,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
     {
-      "_id": "IiQQfTSSTyc",
+      "id": 49,
       "author": "Pauline Kael",
       "title": "Where there",
       "content": "Where there is a will, there is a way. If there is a chance in a million that you can do something, anything, to keep what you want from ending, do it. Pry the door open or, if need be, wedge your foot in that door and keep it open.",
-      "tags": [ "motivational" ],
+      "tags": [
+        "motivational"
+      ],
       "length": 232,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-06"
     },
     {
-      "_id": "nZtnCW3_6S",
+      "id": 50,
       "author": "Abraham Lincoln",
       "title": "I am",
       "content": "I am not bound to win, but I am bound to be true. I am not bound to succeed, but I am bound to live by the light that I have. I must stand with anybody that stands right, and stand with him while he is right, and part with him when he goes wrong.",
-      "tags": [ "inspirational", "history", "truth" ],
+      "tags": [
+        "inspirational",
+        "history",
+        "truth"
+      ],
       "length": 246,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "a86E0FlaTY",
+      "id": 51,
       "author": "Alan Watts",
       "title": "How is",
       "content": "How is it possible that a being with such sensitive jewels as the eyes, such enchanted musical instruments as the ears, and such fabulous arabesque of nerves as the brain can experience itself anything less than a god.",
-      "tags": [ "philosophy" ],
+      "tags": [
+        "philosophy"
+      ],
       "length": 218,
       "createdAt": "2022-03-12",
       "lastEditAt": "2022-03-12"
     },
     {
-      "_id": "qXO3CA1R5kmS",
+      "id": 52,
       "author": "Swami Vivekananda",
       "title": "Take up",
       "content": "Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.",
-      "tags": [ "success" ],
+      "tags": [
+        "success"
+      ],
       "length": 239,
       "createdAt": "2021-05-12",
       "lastEditAt": "2022-07-04"
     },
     {
-      "_id": "zbvj3SIQud",
+      "id": 53,
       "author": "Judy Collins",
       "title": "I think",
       "content": "I think people who are creative are the luckiest people on earth. I know that there are no shortcuts, but you must keep your faith in something Greater than you and keep doing what you love. Do what you love, and you will find the way to get it out to the world.",
-      "tags": [ "inspirational" ],
+      "tags": [
+        "inspirational"
+      ],
       "length": 262,
       "createdAt": "2021-05-05",
       "lastEditAt": "2021-06-17"
     },
     {
-      "_id": "L63tZjtmyQX6",
+      "id": 54,
       "author": "Marilyn Monroe",
       "title": "I'm selfish,",
       "content": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
-      "tags": [ "famous-quotes" ],
+      "tags": [
+        "famous-quotes"
+      ],
       "length": 202,
       "createdAt": "2021-04-23",
       "lastEditAt": "2022-01-07"
     },
     {
-      "_id": "W_NZxqBSuJ",
+      "id": 55,
       "author": "Henri Nouwen",
       "title": "The friend",
       "content": "The friend who can be silent with us in a moment of despair or confusion, who can stay with us in an hour of grief and bereavement, who can tolerate not knowing... not healing, not curing... that is a friend who cares.",
-      "tags": [ "friendship" ],
+      "tags": [
+        "friendship"
+      ],
       "length": 218,
       "createdAt": "2021-04-08",
       "lastEditAt": "2021-04-08"
     },
     {
-      "_id": "01pIIRUUwN",
+      "id": 56,
       "author": "Calvin Coolidge",
       "title": "Knowledge comes,",
       "content": "Knowledge comes, but wisdom lingers. It may not be difficult to store up in the mind a vast quantity of facts within a comparatively short time, but the ability to form judgments requires the severe discipline of hard work and the tempering heat of experience and maturity.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 273,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "ykXP-CFk_G",
+      "id": 57,
       "author": "Michael Jordan",
       "title": "If you're",
       "content": "If you're trying to achieve, there will be roadblocks. I've had them; everybody has had them. But obstacles don't have to stop you. If you run into a wall, don't turn around and give up. Figure out how to climb it, go through it, or work around it.",
-      "tags": [ "wisdom", "inspirational" ],
+      "tags": [
+        "wisdom",
+        "inspirational"
+      ],
       "length": 248,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "PdcCF7bmZfA",
+      "id": 58,
       "author": "Plato",
       "title": "The man",
       "content": "The man who makes everything that leads to happiness depends upon himself, and not upon other men, has adopted the very best plan for living happily. This is the man of moderation, the man of manly character and of wisdom.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 222,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "J2QOuZPIiG",
+      "id": 59,
       "author": "W. Clement Stone",
       "title": "You are",
       "content": "You are a product of your environment. So choose the environment that will best develop you toward your objective. Analyze your life in terms of its environment. Are the things around you helping you toward success - or are they holding you back?",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 246,
       "createdAt": "2021-03-28",
       "lastEditAt": "2021-03-28"
     },
     {
-      "_id": "FMZiiLHfCOc",
+      "id": 60,
       "author": "Parker Palmer",
       "title": "America's freedom",
       "content": "America's freedom of religion, and freedom from religion, offers every wisdom tradition an opportunity to address our soul-deep needs: Christianity, Judaism, Islam, Buddhism, Hinduism, secular humanism, agnosticism and atheism among others.",
-      "tags": [ "wisdom", "freedom" ],
+      "tags": [
+        "wisdom",
+        "freedom"
+      ],
       "length": 240,
       "createdAt": "2021-03-08",
       "lastEditAt": "2022-07-04"
     },
     {
-      "_id": "idKyHYiBkP",
+      "id": 61,
       "author": "Maya Angelou",
       "title": "I love",
       "content": "I love wisdom. And you can never be great at anything unless you love it. Not be in love with it, but love the thing, admire the thing. And it seems that if you love the thing, and you don't just want to possess it, it will find you.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 233,
       "createdAt": "2021-03-08",
       "lastEditAt": "2021-03-08"
     },
     {
-      "_id": "8bIHIEuQP5",
+      "id": 62,
       "author": "Michelle Obama",
       "title": "The fact",
       "content": "The fact is, with every friendship you make, and every bond of trust you establish, you are shaping the image of America projected to the rest of the world. That is so important. So when you study abroad, you're actually helping to make America stronger.",
-      "tags": [ "friendship" ],
+      "tags": [
+        "friendship"
+      ],
       "length": 254,
       "createdAt": "2021-01-19",
       "lastEditAt": "2021-01-19"
     },
     {
-      "_id": "QTf15XLSdB",
+      "id": 63,
       "author": "Victoria Osteen",
       "title": "I think",
       "content": "I think that we have a great opportunity to impart our wisdom and our knowledge and our experience to this younger generation. It may be different times, but experience transcends time, and wisdom transcends time.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 213,
       "createdAt": "2021-01-11",
       "lastEditAt": "2021-01-11"
     },
     {
-      "_id": "lxVMQLtBP7",
+      "id": 64,
       "author": "Douglas Adams",
       "title": "First we",
       "content": "First we thought the PC was a calculator. Then we found out how to turn numbers into letters with ASCII — and we thought it was a typewriter. Then we discovered graphics, and we thought it was a television. With the World Wide Web, we've realized it's a brochure.",
-      "tags": [ "technology" ],
+      "tags": [
+        "technology"
+      ],
       "length": 263,
       "createdAt": "2021-01-11",
       "lastEditAt": "2022-01-07"
     },
     {
-      "_id": "-93zOmlMP9",
+      "id": 65,
       "author": "Nathaniel Hawthorne",
       "title": "The greatest",
       "content": "The greatest obstacle to being heroic is the doubt whether one may not be going to prove oneself a fool; the truest heroism is to resist the doubt; and the profoundest wisdom, to know when it ought to be resisted, and when it be obeyed.",
-      "tags": [ "wisdom" ],
+      "tags": [
+        "wisdom"
+      ],
       "length": 236,
       "createdAt": "2021-01-10",
       "lastEditAt": "2021-06-17"

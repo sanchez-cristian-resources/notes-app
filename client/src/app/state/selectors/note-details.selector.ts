@@ -1,6 +1,6 @@
 import { createSelector } from '@ngrx/store';
 import { AppState } from '../app.state';
-import { NoteDetailState } from '../reducers/apartment-details.reducer';
+import { NoteDetailState } from '../reducers/note-details.reducer';
  
 
 export const selectNoteDetailState = (state: AppState) => state.noteDetailStates;
