@@ -17,6 +17,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { EffectsModule } from '@ngrx/effects';
 import { NotesEffect } from './state/effects/notes.effect';
 import { NoteDetailEffect } from './state/effects/note-details.effect';
+import { CreateNoteComponent } from './pages/create-note/create-note.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NoteDetailEffect } from './state/effects/note-details.effect';
     ProjectsGridComponent,
     CardComponent,
     EditNoteComponent,
-    NotFoundComponent, 
+    NotFoundComponent,
+    CreateNoteComponent,
   ],
   imports: [
     BrowserModule,

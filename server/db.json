@@ -4,7 +4,7 @@
       "id": 1,
       "author": "Afrika Bambaataa",
       "title": "The Universal",
-      "content": "The Universal Zulu Nation stands to acknowledge wisdom, understanding, freedom, justice, and equality, peace, unity, love, and having fun, work, overcoming the negative through the positive, science, mathematics, faith, facts, and the wonders of God, whether we call him Allah, Jehovah, Yahweh, or Jah.",
+      "content": "The Universal Zulu Nation stands to acknowledge wisdom, understanding, freedom, justice, and equality, peace, unity, love, and having fun, work, overcoming the negative through the positive, science, mathematics, faith, facts, and the wonders of God, whether we call him Allah, Jehovah, Yahweh, or Jah.\n\nnew text wiiii more more",
       "tags": [
         "wisdom"
       ],
@@ -28,7 +28,7 @@
       "id": 3,
       "author": "Maria Montessori",
       "title": "Everyone in",
-      "content": "Everyone in the world ought to do the things for which he is specially adapted. It is the part of wisdom to recognize what each one of us is best fitted for, and it is the part of education to perfect and utilize such predispositions. Because education can direct and aid nature but can never transform her.",
+      "content": "nwe asdfasf  asdf",
       "tags": [
         "wisdom"
       ],
@@ -803,8 +803,58 @@
         "wisdom"
       ],
       "length": 236,
-      "createdAt": "2021-01-10",
-      "lastEditAt": "2021-06-17"
+      "createdAt": 1670511624861,
+      "lastEditAt": 1670511624861
+    },
+    {
+      "id": 66,
+      "author": "Cristian Sánchez",
+      "title": "Nueva nota",
+      "content": "There is only one way. ",
+      "tags": [],
+      "length": 23,
+      "createdAt": 1670511624861,
+      "lastEditAt": 1670511624861
+    },
+    {
+      "id": 67,
+      "author": "Cristan Note",
+      "title": "New note",
+      "content": "asdfasfasdfasdfasdf",
+      "tags": [],
+      "length": 19,
+      "createdAt": 1670514934496,
+      "lastEditAt": 1670514934496
+    },
+    {
+      "id": 68,
+      "author": "Cristian Sánchez",
+      "title": "Proejct name",
+      "content": "asfasfasdfasdf\nasd\nf\nasf\nas\ndf\nasf\n\nasdf",
+      "tags": [],
+      "length": 40,
+      "createdAt": 1670518377228,
+      "lastEditAt": 1670518377228
+    },
+    {
+      "id": 69,
+      "author": "facundo tata",
+      "title": "New note",
+      "content": "new note to this",
+      "tags": [],
+      "length": 16,
+      "createdAt": 1670528493758,
+      "lastEditAt": 1670528493758
+    },
+    {
+      "id": 70,
+      "author": "Marilyn Pabón",
+      "title": "Create a new note",
+      "content": "SE VA A ACABAR MI VIDA, SITU NO VUELVES A MI",
+      "tags": [],
+      "length": 44,
+      "createdAt": 1670578491565,
+      "lastEditAt": 1670578491565
     }
   ]
 }

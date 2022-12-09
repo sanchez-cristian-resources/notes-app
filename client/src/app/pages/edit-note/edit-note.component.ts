@@ -19,9 +19,9 @@ export class EditNoteComponent {
   loading$: Observable<boolean>
   note$: Observable<Note>
 
-  // two-way binding
+  // form
   note: Note
-  content: string
+  saved: boolean
 
   constructor(
     private route: ActivatedRoute, 
@@ -31,10 +31,10 @@ export class EditNoteComponent {
     this.id = 1
     this.loading$ = new Observable<boolean>()
     this.note$ = new Observable<Note>()
+    this.saved = false
 
     // two-way binding
     this.note = new Note()
-    this.content = ''
   }
 
   ngOnInit(): void {
@@ -42,9 +42,9 @@ export class EditNoteComponent {
       this.id = this.route.snapshot.params['id'];
       this.loading$ = this.store.select(selectLoading);
       this.note$ = this.store.select(selectNote);
-      
+
       this.note$.subscribe((note) => {
-        this.content = note.content
+        this.note = {...note}
       })
 
       this.store.dispatch(loadingNote({ id: String(this.id) }));
@@ -55,58 +55,24 @@ export class EditNoteComponent {
   }
 
   updateNote(): void { 
-    let updateNote = new Note()
-
-    this.note$.subscribe((note) => {
-      updateNote = {...note}
-    })
-
-    updateNote.content = this.content
-
     try {
-      const createdObservable = this.notesApiService.updateNote(String(this.id), updateNote)
+      const createdObservable = this.notesApiService.updateNote(String(this.id), this.note)
 
-      createdObservable.subscribe((note) => {
-        console.log(note)
+      createdObservable.subscribe({
+        next: (note) => {
+            if ( note ) {
+              this.saved = true
+            }
+        }, 
+        error: (error) => { alert(`Something went wrong ${error}`) },
       })
     } catch(error) {
       alert(error);
     }
   }
+
+  changeSaved(): void {
+    this.saved = !this.saved
+  }
 }
 
-
-// id: Number
-//     loading$: Observable<boolean>
-//     note$: Observable<Note>
-
-//     constructor(
-//       private route: ActivatedRoute, 
-//       private store: Store<AppState>,
-//       private notesApiService: NotesApiService
-//     ) {
-//       this.id = 1
-//       this.loading$ = new Observable<boolean>()
-//       this.note$ = new Observable<Note>()
-//     }
-
-//     ngOnInit(): void {
-//       try {
-//         this.id = this.route.snapshot.params['id'];
-//         this.loading$ = this.store.select(selectLoading);
-//         this.note$ = this.store.select(selectNote);
-    
-//         this.store.dispatch(loadingNote({ id: String(this.id) }));
-
-//       } catch(error) {
-//         alert(error);
-//       }
-//     }
-
-//     updateNote(): void {
-//       try {
-//         this.notesApiService.updateNote(this.id, this.note$)
-//       } catch(error) {
-//         alert(error);
-//       }
-//     }
