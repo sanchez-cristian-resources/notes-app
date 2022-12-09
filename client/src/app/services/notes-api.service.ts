@@ -11,15 +11,11 @@ export class NotesApiService {
   constructor(private http: HttpClient) { }
 
   getNotes(): Observable<Note[]> {
-    return this.http.get<Note[]>(this.API_URL).pipe(
-        delay(1500)
-    )
+    return this.http.get<Note[]>(this.API_URL);
   }
 
   getNoteById(id: string): Observable<Note> {
-    return this.http.get<Note>(`${this.API_URL}/${id}`).pipe(
-        delay(1500)
-    )
+    return this.http.get<Note>(`${this.API_URL}/${id}`);
   }
 
   updateNote( id: string, updatedNote: Note ): Observable<Note> {

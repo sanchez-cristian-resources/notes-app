@@ -27,7 +27,7 @@ import { CreateNoteComponent } from './pages/create-note/create-note.component';
     CardComponent,
     EditNoteComponent,
     NotFoundComponent,
-    CreateNoteComponent, 
+    CreateNoteComponent,
   ],
   imports: [
     BrowserModule,

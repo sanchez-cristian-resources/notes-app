@@ -1,0 +1,139 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 2vw 4vw 0px 4vw;
+}
+
+#start-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: fit-content;
+    width: 100%;
+}
+
+#left-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* if we don't use this, i don't know why but the child does not count as hover */
+#left-container:hover > *, #left-container:hover{
+    cursor: pointer; 
+}
+
+#dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #0047ff;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    color: #000;
+    background-color: transparent;
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+}
+
+
+#note-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding-top: 10vh; 
+    padding-inline: 7vw;
+}
+
+#headers-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-inline: 2vw; /* for the dashed box*/
+}
+
+#title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #333;
+    width: 100%; 
+    height: fit-content;
+    border: none;
+    outline: none;
+    padding-left: 5px; 
+}
+
+#title:focus {
+    box-shadow: inset 2px 0px 0px #ececec;
+}
+
+#author {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    width: fit-content; 
+    height: fit-content;
+    border: none;
+    outline: none;
+    padding-left: 5px; 
+    margin-left: 20px; 
+    text-align: right;
+}
+
+#author:focus {
+    box-shadow: inset 2px 0px 0px #ececec;
+}
+
+textarea {
+    width: 100%; 
+    height: 100%; 
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px 20px 0px 0px ;
+    outline: none;
+    resize: none;
+    text-align: left;
+    padding-bottom: 50px; 
+    padding-inline: 2vw;
+    padding-top: 2vw;
+    transition: all .15s ease-in-out;
+}
+
+textarea:hover {
+    background-color: #f2f2f2;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: yellow;
+}
+
+::selection {
+    background: yellow;
+}
+

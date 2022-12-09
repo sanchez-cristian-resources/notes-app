@@ -1,7 +1,22 @@
-<div>
-    <p>hola</p>
+<section id="start-section">
+    <div id="left-container">
+        <div id="dot" *ngIf="saved === false"></div>
+        <button (click)="updateNote()" *ngIf="saved === false" >Save</button>
+        <button *ngIf="saved === true">Saved</button>
+    </div>
+    <ul>
+        <li>
+            <p>Tags</p>
+        </li>
+    </ul>
+</section>
+<section id="note-container">
+    <div id="headers-container">
+        <input id="title" value="{{ note.title || 'Title' }}" [(ngModel)]="note.title">
+        <input id="author" value="{{ note.author || 'Author name' }}" [(ngModel)]="note.author">
+    </div>
     <textarea 
-        [(ngModel)]="content"
+        (change)="changeSaved()"
+        [(ngModel)]="note.content"
     ></textarea>
-    <button (click)="updateNote()">Save</button>
-</div>
+</section>

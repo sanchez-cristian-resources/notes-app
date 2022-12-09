@@ -85,6 +85,11 @@ button {
     border: dashed 2px #ececec;
     outline: none;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all .15s ease-in-out;
     border-radius: 10px;
+}
+
+button:hover {
+    color: #333;
+    background-color: #ececec;
 }
