@@ -1,27 +1,72 @@
-# NotesApp
+# Notes App built on Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+### Description  
 
-## Development server
+This project was built on Angular and the idea is to create a simple notes app that a   llows users to create, edit and delete notes. Also the application will use as a fake backend a json-server that will be used to store the notes. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Wireframes
 
-## Code scaffolding
+![Wireframe](./src/assets/wireframe2.png)
+![Wireframe](./src/assets/wireframe1.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Setup
 
-## Build
+To run this project first you new to clone the repository and then install the dependencies with 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+npm install
+```
 
-## Running unit tests
+inside of the client folder and then on the server folder. Once you have installed the dependencies you can run the json server with 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm run start
+```
+on the server folder and then run the angular app with 
 
-## Running end-to-end tests
+```
+ng serve -o
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+on the client folder.
 
-## Further help
+### Technologies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project was built with different technologies such as:
+* Angular
+* Angular Material
+* Json-server
+* Rxjs
+The project was also written on TypeScript. 
+
+
+### Final Product
+
+Based on the wireframes of the final product we've tried to make something that gets close to the wireframes.
+
+##### Homepage
+![Final Product](./src/assets/home.png)
+
+
+##### Edit note
+![Final Product](./src/assets/edit.png)
+
+##### Create note
+![Final Product](./src/assets/create.png)
+
+### As a future feature...
+
+ we would like to add a login page and a register page so that users can create an account and then login to the app. Also we would like to add a search bar so that users can search for notes.
+
+ ### Resources
+
+* [Angular](https://angular.io/)
+* [Angular Material](https://material.angular.io/)
+* [Json-server](https://www.npmjs.com/package/json-server)
+* [MDN](https://developer.mozilla.org/en-US/)
+ 
+ ### Authors
+
+ I'm Cristian Sánchez. I'm a Frontend developer, I study microcomputers and networks. I lived Spain and I'm 23 years old. I'm a self-taught developer. I'm also learning about backend technologies such as Node.js and Express.js. 
+
+ Here is my [LinkedIn](https://www.linkedin.com/in/cristian-sanchez-dev) and my [GitHub](https://github.com/sanchez-cristian)
