@@ -67,6 +67,6 @@ Based on the wireframes of the final product we've tried to make something that 
  
  ### Authors
 
- I'm Cristian Sánchez. I'm a Frontend developer, I study microcomputers and networks. I lived Spain and I'm 23 years old. I'm a self-taught developer. I'm also learning about backend technologies such as Node.js and Express.js. 
+ I'm Cristian Sánchez. I'm a Frontend developer, I study microcomputers and networks. I lived Spain and I'm 17 years old. I'm a self-taught developer. I'm also learning about backend technologies such as Node.js and Express.js. 
 
  Here is my [LinkedIn](https://www.linkedin.com/in/cristian-sanchez-dev) and my [GitHub](https://github.com/sanchez-cristian)
