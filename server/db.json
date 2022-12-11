@@ -14,9 +14,9 @@
     },
     {
       "id": 2,
-      "author": "Ben Fountain",
-      "title": "Democracy's premise",
-      "content": "Democracy's premise rests on the notion that the collective wisdom of the majority will prove right more often than it's wrong; that given sufficient opportunity in the pursuit of happiness, your population will develop its talents, its intellect, its better judgment; that over time its capacity for discernment and self-correction will be enlarged.",
+      "author": "Ben",
+      "title": "Asdf",
+      "content": "Aasdf",
       "tags": [
         "wisdom"
       ],
@@ -525,9 +525,9 @@
     },
     {
       "id": 43,
-      "author": "Leonardo da Vinci",
-      "title": "It had",
-      "content": "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things.",
+      "author": "Leonardo di Crapio",
+      "title": "Bery beuty",
+      "content": "nasty girl",
       "tags": [
         "famous-quotes"
       ],
@@ -855,6 +855,26 @@
       "length": 44,
       "createdAt": 1670578491565,
       "lastEditAt": 1670578491565
+    },
+    {
+      "id": 71,
+      "author": "Cristian Pabón",
+      "title": "Nueva nota",
+      "content": "Esto es una nueva nota hablando de como evoluciona uhay cambion para qeu mentir",
+      "tags": [],
+      "length": 278,
+      "createdAt": 1670591747821,
+      "lastEditAt": 1670591747821
+    },
+    {
+      "id": 72,
+      "author": "Ceristian Sanchez",
+      "title": "Nombre de nota",
+      "content": "asdlfsaf asflsamfas\nfas s\nf\nasf\ns\nf\nasf\n\nsaf\n\nasf\nsdf",
+      "tags": [],
+      "length": 51,
+      "createdAt": 1670768634682,
+      "lastEditAt": 1670768634682
     }
   ]
 }
