@@ -25,4 +25,8 @@ export class NotesApiService {
   createNote( note: Note ): Observable<Note> {
     return this.http.post<Note>(this.API_URL, note)
   }
+
+  deleteNote( id: string ): Observable<any> {
+    return this.http.delete<any>(`${this.API_URL}/${id}`)
+  }
 }

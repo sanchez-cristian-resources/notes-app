@@ -90,7 +90,6 @@ export class EditNoteComponent {
     this.editNoteForm.valueChanges.subscribe((note) => {
         if ( this.note.title !== note.title || this.note.author !== note.author || this.note.content !== note.content ) {
           this.saved = false
-          console.log(this.saved, 'saved')
         }
     })
   }
@@ -137,6 +136,33 @@ export class EditNoteComponent {
       });
     }
 
+  }
+
+  deleteNote(): void {
+    try {
+      console.log(this.note.id)
+      const a = this.notesApiService.deleteNote(String(this.note.id))
+
+      a.subscribe({
+        next:() => {
+          this.goHome()
+        }, 
+        error: (error) => {
+          this.snackBar.open(`Something went wrong: ${error}`, '', {
+            duration: 3000
+          })
+        }
+      })
+
+    } catch(error) {
+      this.snackBar.open(`Something went wrong: ${error}`, "", {
+        duration: 5000
+      });
+    }
+  }
+
+  goHome(): void {
+    window.location.pathname = ''
   }
 }
 

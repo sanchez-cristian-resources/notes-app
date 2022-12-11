@@ -8,12 +8,43 @@
     padding: 2vw 4vw 0px 4vw;
 }
 
-#start-section {
+/* BACK BUTTON */
+
+#icon-container {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    left: 0px; 
+    bottom: 0px; 
+    margin: 50px; 
+    background-color: transparent;
+    border-radius: 50px;
+    z-index: 9999999999999999;
+    transition: all .15s ease-in-out;
+    color: #898989; 
+}
+
+#icon-container:hover {
+    background-color: #ececec;
+    color: #000; 
+    cursor: pointer;
+}
+
+mat-icon {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 10px; 
+}
+
+/* NAVBAR */
+
+#navbar {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     height: fit-content;
     width: 100%;
 }
@@ -40,7 +71,26 @@
     background-color: #0047ff;
 }
 
-button {
+
+ul {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 35px; 
+}
+
+ul li {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    list-style: none;
+}
+
+li * {
+    position: relative; 
     height: fit-content;
     width: fit-content;
     color: #000;
@@ -50,6 +100,59 @@ button {
     outline: none;
 }
 
+#save-button {
+    height: fit-content;
+    width: fit-content;
+    color: #000;
+    background-color: transparent;
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+}
+
+#delete-button {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-block: 10px;
+    padding-inline: 15px;
+}
+
+/* MODAL */
+#modal-title {
+    z-index: 99999999999999;
+}
+
+#modal-title:hover {
+    cursor: pointer;
+}
+
+#modal-title:hover #modal {
+    opacity: 1;
+    background-color: blue;
+}
+
+#modal {
+    position: absolute;
+    top: 30px; 
+    right: 0px;  
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    padding-block: 15px;
+    padding-inline: 20px;  
+    background-color: red;
+    opacity: 0;
+    transition: all .5 ease-in-out;
+}
+
+#modal:hover {
+    opacity: 1;
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+/* NOTE PART */
 
 #note-container {
     position: relative;
@@ -107,26 +210,43 @@ button {
     box-shadow: inset 2px 0px 0px #ececec;
 }
 
+#textarea-container {
+    width: 100%; 
+    height: 100%; 
+    padding-bottom: 50px; 
+    padding-inline: 2vw;
+    padding-top: 2vw;
+    transition: all .15s ease-in-out;
+    background-color: transparent;
+    background-color: #f2f2f2;
+    border-radius: 20px 20px 0px 0px ;
+    box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0);
+}
+
+#textarea-container:hover {
+    box-shadow: inset 0px 0px 1px 0px #000;
+}
+
 textarea {
     width: 100%; 
     height: 100%; 
     font-size: 2rem;
     font-weight: 400;
     color: #333;
-    border: none;
     background-color: transparent;
-    border-radius: 20px 20px 0px 0px ;
+    border: none;
     outline: none;
     resize: none;
     text-align: left;
-    padding-bottom: 50px; 
-    padding-inline: 2vw;
-    padding-top: 2vw;
-    transition: all .15s ease-in-out;
 }
 
-textarea:hover {
-    background-color: #f2f2f2;
+#char-counter {
+    text-align: right;
+    height: fit-content;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #898989;
 }
 
 ::-moz-selection { /* Code for Firefox */
