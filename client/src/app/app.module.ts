@@ -10,6 +10,10 @@ import { CardComponent } from './components/card/card.component';
 import { StoreModule } from '@ngrx/store';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatIconModule} from '@angular/material/icon'; 
+import {MatButtonModule} from '@angular/material/button'; 
 
 // redux
 import { ROOT_REDUCERS } from './state/app.state';
@@ -19,9 +23,6 @@ import { EffectsModule } from '@ngrx/effects';
 import { NotesEffect } from './state/effects/notes.effect';
 import { NoteDetailEffect } from './state/effects/note-details.effect';
 import { CreateNoteComponent } from './pages/create-note/create-note.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatSnackBarModule} from '@angular/material/snack-bar'; 
-
 
 @NgModule({
   declarations: [
@@ -42,7 +43,9 @@ imports: [
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule, 
-    MatSnackBarModule
+    MatSnackBarModule, 
+    MatIconModule, 
+    MatButtonModule
 ],
   providers: [],
   bootstrap: [AppComponent]

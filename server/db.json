@@ -4,25 +4,13 @@
       "id": 1,
       "author": "Afrika Bambaataa",
       "title": "The Universal",
-      "content": "The Universal Zulu Nation stands to acknowledge wisdom, understanding, freedom, justice, and equality, peace, unity, love, and having fun, work, overcoming the negative through the positive, science, mathematics, faith, facts, and the wonders of God, whether we call him Allah, Jehovah, Yahweh, or Jah.\n\nnew text wiiii more more",
+      "content": "The Universal Zulu Nation stands to acknowledge wisdom, understanding, freedom, justice, and equality, peace, unity, love, and having fun, work, overcoming the negative through the positive, science, mathematics, faith, facts, and the wonders of God, whether we call him Allah, Jehovah, Yahweh, or Jah. ",
       "tags": [
         "wisdom"
       ],
       "length": 302,
       "createdAt": "2021-03-08",
       "lastEditAt": "2021-03-08"
-    },
-    {
-      "id": 2,
-      "author": "Ben",
-      "title": "Asdf",
-      "content": "Aasdf",
-      "tags": [
-        "wisdom"
-      ],
-      "length": 350,
-      "createdAt": "2019-09-19",
-      "lastEditAt": "2019-09-19"
     },
     {
       "id": 3,
@@ -51,7 +39,7 @@
     {
       "id": 5,
       "author": "Confucius",
-      "title": "A youth,",
+      "title": "A youth",
       "content": "A youth, when at home, should be filial and, abroad, respectful to his elders. He should be earnest and truthful. He should overflow in love to all and cultivate the friendship of the good. When he has time and opportunity, after the performance of these things, he should employ them in polite studies.",
       "tags": [
         "friendship"
@@ -186,18 +174,6 @@
       "lastEditAt": "2021-04-08"
     },
     {
-      "id": 16,
-      "author": "Calvin Coolidge",
-      "title": "Knowledge comes,",
-      "content": "Knowledge comes, but wisdom lingers. It may not be difficult to store up in the mind a vast quantity of facts within a comparatively short time, but the ability to form judgments requires the severe discipline of hard work and the tempering heat of experience and maturity.",
-      "tags": [
-        "wisdom"
-      ],
-      "length": 273,
-      "createdAt": "2021-03-28",
-      "lastEditAt": "2021-03-28"
-    },
-    {
       "id": 17,
       "author": "Michael Jordan",
       "title": "If you're",
@@ -275,7 +251,7 @@
       "id": 23,
       "author": "Michelle Obama",
       "title": "The fact",
-      "content": "The fact is, with every friendship you make, and every bond of trust you establish, you are shaping the image of America projected to the rest of the world. That is so important. So when you study abroad, you're actually helping to make America stronger.",
+      "content": "The fac tibs, with every  you make, and evvery bond of tr ust you establish,  you are shaping the image of America projected to the rest o f the world. That is so important. So when you stud y abroad, you're actually helping to make America stronger.    ",
       "tags": [
         "friendship"
       ],
@@ -570,31 +546,6 @@
         "famous-quotes"
       ],
       "length": 224,
-      "createdAt": "2022-07-06",
-      "lastEditAt": "2022-07-08"
-    },
-    {
-      "id": 47,
-      "author": "Bob Feller",
-      "title": "Every day",
-      "content": "Every day is a new opportunity. You can build on yesterday's success or put its failures behind and start over again. That's the way life is, with a new game every day, and that's the way baseball is.",
-      "tags": [
-        "sports",
-        "competition"
-      ],
-      "length": 200,
-      "createdAt": "2022-07-06",
-      "lastEditAt": "2022-07-08"
-    },
-    {
-      "id": 48,
-      "author": "George Orwell",
-      "title": "Serious sport",
-      "content": "Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence. In other words, it is war minus the shooting.",
-      "tags": [
-        "sports"
-      ],
-      "length": 214,
       "createdAt": "2022-07-06",
       "lastEditAt": "2022-07-08"
     },
