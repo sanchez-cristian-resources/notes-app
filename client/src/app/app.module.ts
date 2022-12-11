@@ -9,6 +9,7 @@ import { ProjectsGridComponent } from './components/projects-grid/projects-grid.
 import { CardComponent } from './components/card/card.component';
 import { StoreModule } from '@ngrx/store';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 // redux
 import { ROOT_REDUCERS } from './state/app.state';
@@ -18,6 +19,9 @@ import { EffectsModule } from '@ngrx/effects';
 import { NotesEffect } from './state/effects/notes.effect';
 import { NoteDetailEffect } from './state/effects/note-details.effect';
 import { CreateNoteComponent } from './pages/create-note/create-note.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSnackBarModule} from '@angular/material/snack-bar'; 
+
 
 @NgModule({
   declarations: [
@@ -28,15 +32,18 @@ import { CreateNoteComponent } from './pages/create-note/create-note.component';
     EditNoteComponent,
     NotFoundComponent,
     CreateNoteComponent,
-  ],
-  imports: [
+],
+imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     StoreModule.forRoot(ROOT_REDUCERS),
     EffectsModule.forRoot([NotesEffect, NoteDetailEffect]), 
-    FormsModule
-  ],
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule, 
+    MatSnackBarModule
+],
   providers: [],
   bootstrap: [AppComponent]
 })

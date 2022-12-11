@@ -1,7 +1,7 @@
 <section id="start-section">
     <div id="left-container">
         <div id="dot" *ngIf="saved === false"></div>
-        <button (click)="updateNote()" *ngIf="saved === false" >Save</button>
+        <button *ngIf="saved === false" (click)="updateNote()">Save</button>
         <button *ngIf="saved === true">Saved</button>
     </div>
     <ul>
@@ -10,13 +10,20 @@
         </li>
     </ul>
 </section>
-<section id="note-container">
+<form id="note-container" [formGroup]="editNoteForm">
     <div id="headers-container">
-        <input id="title" value="{{ note.title || 'Title' }}" [(ngModel)]="note.title">
-        <input id="author" value="{{ note.author || 'Author name' }}" [(ngModel)]="note.author">
+        <input 
+          id="title" 
+          value="{{ note.title || 'Title' }}" 
+          formControlName="title"
+        >
+        <input 
+          id="author" 
+          value="{{ note.author || 'Author name' }}" 
+          formControlName="author"  
+        >
     </div>
-    <textarea 
-        (change)="changeSaved()"
-        [(ngModel)]="note.content"
+    <textarea
+        formControlName="content"
     ></textarea>
-</section>
+</form>
