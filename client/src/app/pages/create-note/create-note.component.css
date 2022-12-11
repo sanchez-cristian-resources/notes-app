@@ -7,7 +7,41 @@
     border-left: dashed 3px #ececec;
 }
 
-div {
+/* BACK BUTTON */
+
+#icon-container {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    left: 0px; 
+    bottom: 0px; 
+    margin: 50px; 
+    background-color: transparent;
+    border-radius: 50px;
+    z-index: 9999999999999999;
+    transition: all .15s ease-in-out;
+    color: #898989; 
+}
+
+#icon-container:hover {
+    background-color: #ececec;
+    color: #000; 
+    cursor: pointer;
+}
+
+mat-icon {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 10px; 
+}
+
+form {
+    height: 100%;
+    width: 100%;
+}
+
+#top-inputs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

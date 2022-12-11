@@ -2,50 +2,45 @@
     <mat-icon aria-hidden="true" aria-label="Example home icon" fontIcon="keyboard_return"></mat-icon>
 </div>
 <section id="navbar">
-    <div id="left-container">
-        <div id="dot" *ngIf="saved === false"></div>
-        <button
-          id="save-button"
-          *ngIf="saved === false" 
-          (click)="updateNote()"
-        >Save</button>
-        <button 
-          id="save-button"
-          *ngIf="saved === true"
-        >Saved</button>
-    </div>
-    <ul>
-        <li id="modal-title">
-            <p>Tags</p>
-            <div id="modal">                         
-            </div>
-        </li>
-        <li>
-            <button 
-              id="delete-button" 
-              mat-stroked-button
-              (click)="deleteNote()"
-            >Delete</button>
-        </li>
-    </ul>
+  <div id="left-container">
+    <div id="dot" *ngIf="saved === false"></div>
+    <button
+      id="save-button"
+      *ngIf="saved === false" 
+      (click)="updateNote()"
+    >Save</button>
+    <button 
+      id="save-button"
+      *ngIf="saved === true"
+    >Saved</button>
+  </div>
+  <ul>
+    <li>
+      <button 
+        id="delete-button" 
+        mat-stroked-button
+        (click)="deleteNote()"
+      >Delete</button>
+    </li>
+  </ul>
 </section>
 <form id="note-container" [formGroup]="editNoteForm">
-    <div id="headers-container">
-        <input 
-          id="title" 
-          value="{{ note.title || 'Title' }}" 
-          formControlName="title"
-        >
-        <input 
-          id="author" 
-          value="{{ note.author || 'Author name' }}" 
-          formControlName="author"  
-        >
-    </div>
-    <div id="textarea-container">
-        <p id="char-counter">{{content.value.length}} Chars </p>
-        <textarea
-            formControlName="content"
-        ></textarea>
-    </div>
+  <div id="headers-container">
+    <input 
+      id="title" 
+      value="{{ note.title || 'Title' }}" 
+      formControlName="title"
+    >
+    <input 
+      id="author" 
+      value="{{ note.author || 'Author name' }}" 
+      formControlName="author"  
+    >
+  </div>
+  <div id="textarea-container">
+      <p id="char-counter">{{content.value.length}} Chars </p>
+      <textarea
+          formControlName="content"
+      ></textarea>
+  </div>
 </form>

@@ -1,8 +1,24 @@
-<div>
-    <input id="title" placeholder="Untitled" [(ngModel)]="title"/>
-    <input id="author" placeholder="Author fullname" [(ngModel)]="author"/>
+<div id="icon-container" (click)="goHome()">
+    <mat-icon aria-hidden="true" aria-label="Example home icon" fontIcon="keyboard_return"></mat-icon>
 </div>
-<section>
-    <textarea placeholder="Write your note here..." [(ngModel)]="content"></textarea>
+<form [formGroup]="createNoteForm">
+  <div id="top-inputs">
+    <input 
+      id="title" 
+      placeholder="Untitled" 
+      formControlName="title"  
+    />
+    <input 
+      id="author" 
+      placeholder="Author fullname"
+      formControlName="author" 
+    />
+  </div>
+  <section>
+    <textarea 
+      formControlName="content"
+      placeholder="Write your note here..." 
+    ></textarea>
     <button (click)="onSubmit()">Create</button>
-</section>
+  </section>
+</form>

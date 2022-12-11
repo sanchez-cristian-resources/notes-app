@@ -49,10 +49,12 @@ export class EditNoteComponent {
       Validators.maxLength(30), 
       CustomValidators.firstCapitalized
     ])
+    
     this.author = new FormControl('', [
       Validators.required, 
       CustomValidators.validAuthor
     ])
+    
     this.content = new FormControl('', [
       Validators.required, 
       CustomValidators.firstCapitalized, 
@@ -101,16 +103,15 @@ export class EditNoteComponent {
     this.note.author = this.editNoteForm.value.author
     this.note.content = this.editNoteForm.value.content
 
+    if(!this.title.valid) {
+      this.snackBar.open('Title format: First letter [A-Z] at least 3 characters [a-z][0-9]', "Okay!")
+      return
+    } 
 
     if(!this.author.valid) {
       this.snackBar.open('The author needs to be Capitalized', "", {
         duration: 3000
       });
-      return
-    } 
-
-    if(!this.title.valid) {
-      this.snackBar.open('Title format: First letter [A-Z] at least 3 characters [a-z][0-9]', "Okay!")
       return
     } 
 
