@@ -64,7 +64,12 @@ Based on the wireframes of the final product we've tried to make something that 
 * [Angular Material](https://material.angular.io/)
 * [Json-server](https://www.npmjs.com/package/json-server)
 * [MDN](https://developer.mozilla.org/en-US/)
- 
+
+ ### Extras
+ Also you can take a look to the google slides presentation.
+[Presentation](https://docs.google.com/presentation/d/1bEv2khS9RUSi7U3clijTEpmQ0Ojy-K8-Iu5s1M3QQdg/edit?usp=sharing)
+  
+
  ### Authors
 
  I'm Cristian Sánchez. I'm a Frontend developer, I study microcomputers and networks. I lived Spain and I'm 17 years old. I'm a self-taught developer. I'm also learning about backend technologies such as Node.js and Express.js. 
